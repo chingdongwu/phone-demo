@@ -6,15 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>手機算命網站</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <div id="container">
         <div class="title">
-            手機占卜網
+            手機號碼占卜網
         </div>
         <div id="timer">
-            日期:
+            2022-09-14 19:16:32
 
         </div>
         <p>
@@ -25,11 +26,12 @@
 
         <div id="form">
             <label for="phone-number">號碼</label>
-            <input type="text" id="phone-number">
-            <input type="button" value="測算" id="analytics">
+            <input type="text" id="phone-number" placeholder="0912345678" maxlength="10">
+
             <div id="result">
                 吉
             </div>
+            <input type="button" value="測算" id="analytics" onclick="analytics()">
             <div id="result-text">Lorem ipsum dolor sit</div>
         </div>
 
@@ -37,7 +39,7 @@
     </div>
 
 
-
+    <script src="./js/index.js"></script>
 
 </body>
 

@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(214, 227, 245);
+
+
+}
+
+
+
+#container {
+
+    width: 80%;
+    margin: 24px auto;
+    text-align: center;
+}
+
+.title {
+    font-size: 2rem;
+    background-color: blanchedalmond;
+    color: brown;
+    display: inline-block;
+    padding: 12px;
+}
+
+
+
+#timer {
+    margin-top: 12px;
+
+}
+
+.text1 {
+    font-size: 1.5rem;
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+#form {
+    width: 80%;
+    text-align: center;
+    margin: 24px auto;
+    background-color: chocolate;
+    padding: 30px 24px;
+    border-radius: 6px;
+}
+
+label,
+input {
+    display: block;
+    text-align: center;
+    margin: 12px auto;
+    font-size: 30px;
+}
+
+input[type="button"] {
+    margin-top: 2.5rem;
+    background-color: gold;
+    border: 0;
+    border-radius: 6px;
+
+}
+
+input [type="text"] {
+    font-size: 30px;
+
+}
+
+
+
+#result {
+    font-size: 80px;
+    font-family: 標楷體;
+    color: yellow;
+}
+
+
+#result-text {
+    font-size: 24px;
+    font-family: 標楷體;
+    background-color: black;
+    color: aliceblue;
+    padding: 12px 0;
+    margin-top: 24px;
+    border-radius: 6px;
+}
+
+/* @media screen and (max-width:760px) {
+
+    #container {
+
+        width: 100%;
+    }
+} */
+
+
+@media (max-width:600px) {
+    #container {
+
+        width: 80%;
+    }
+
+    input {
+        display: block;
+        text-align: center;
+        margin: 12px auto;
+        font-size: 25px;
+
+
+    }
+}
